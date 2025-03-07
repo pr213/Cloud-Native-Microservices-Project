@@ -1,0 +1,12 @@
+
+services:
+  user-service:
+    build: .
+    ports:
+      - "3000:3000"
+
+  product-service:
+    build: .
+    ports:
+      - "4000:4000"
+
